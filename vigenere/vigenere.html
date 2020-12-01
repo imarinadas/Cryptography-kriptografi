@@ -1,0 +1,29 @@
+<html>
+    <head><title>Vigenere Cipher</title></head>
+    <body>
+        <div id="content"><center>
+            <br><h1>Vigenere Cipher</h1>
+            <table class="table table-borderless">
+              <thead><tr>
+                  <th>INPUT TEKS</th>
+                  <th>KUNCI</th>
+                  <th>OUTPUT HASIL</th>
+              </tr></thead>
+              <tbody>
+                <tr style="align-content: center">
+                  <td><textarea id="input" rows="10" placeholder="input teks"></textarea></td>
+                  <td><textarea id="kunci" rows="10" placeholder="kunci"></textarea></td>
+                  <td><textarea id="output" rows="10" placeholder="output hasil" readonly></textarea></td>
+                </tr>
+                <tr style="text-align: center">
+                  <td></td>
+                  <td><button type="button" onclick="enkripsi()" id="enkripsi"> ENKRIPSI </button>
+                      <button type="button" onclick="dekripsi()" id="dekripsi"> DEKRIPSI </button> </td>
+                  <td><button type="button" onclick="reset()" id="reset"> RESET </button></td>
+                </tr>
+              </tbody>
+            </table><br>
+            <h3>JENIS TEKS INPUT</h3><textarea id="jenis" placeholder="jenis teks input" readonly></textarea>
+        </center></div>
+        <script type="text/javascript" src="../vigenere/vigenere.js"> </script>
+</body></html>
